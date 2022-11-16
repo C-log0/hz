@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>iframe</h1>
+	<p>웹브라우저의 특정영역을 설정하여 다른 내용을 보여줌 <br>
+		&lt;iframe src="경로"&gt; ... &lt;/iframe&gt;</p>
+
+	<iframe>iframe지원 불가한 브라우저 사용자용 메세지</iframe>
+
+	<iframe src="http://www.itwillbs.co.kr/"> </iframe>
+
+	<h2>iframe의 크기 지정 width/height</h2>
+	<iframe src="http://www.itwillbs.co.kr/" width="1000" height="600"></iframe>
+
+	<hr>
+	<h2>iframe의 src로 보여줄 수 있는 종류</h2>
+	<ul>
+ 		<li>URL</li>
+ 		<li>html(웹페이지)<br>
+  	<iframe src="test07.html"></iframe>
+ 		</li>
+		 <li>image file <br>
+ 		 <iframe src="></iframe>
+ 		</li>
+ 		<li>movie file <br>
+ 	 	<iframe src="Clouds.mp4"></iframe>
+	 </li>
+ 		<li>text file  <br>
+  		<iframe src="폼테스트용 텍스트.txt"></iframe>
+ 	</li>
+	</ul>
+
+	<nav>
+ 		<a href="img/png/박1.png" target="ifbox01">photo 01</a>
+ 		<a href="img/png/하1.png" target="ifbox01">photo 02</a>
+		 <a href="img/png/dora.png" target="ifbox01">photo 03</a>
+		 <a href="img/IMG_8408.jpeg" target="ifbox01">photo 04</a>
+	</nav>
+		<iframe src="img/cat.jpg" width="640" height="430" name="ifbox01">
+		</iframe>
+
+		<iframe src="test05.html" width="800" height="500" name="ifbox02"></iframe>
+	<nav>
+ 		 <a href="test05.html" target="ifbox02">html 01</a>
+		 <a href="test06.html" target="ifbox02">html 02</a>
+		 <a href="test07.html" target="ifbox02">html 03</a>
+	</nav> 
+	<hr>
+	<p>
+		&lt;iframe <b>name="abc"</b>&gt; ... &lt;/iframe&gt; <br>
+ 		 iframe의 name의 값을 a의 target값으로 지정하면 해당 iframe안에 링크가 열림<br>
+		&lt;a <b>target="abc"</b>&gt;...&lt;/a&gt;
+	</p>
+
+
+
+</body>
+</html>
+
+
+	
